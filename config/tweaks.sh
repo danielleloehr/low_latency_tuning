@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #
 # Tweak some kernel parameters
 #

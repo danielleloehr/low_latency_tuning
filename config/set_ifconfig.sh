@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Set interface
+# Set interface with ifconfig
 #
 
 ifconfig $1 1.1.2.1 netmask 255.255.0.0

@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #
 # Isolate a single CPU core
 # 

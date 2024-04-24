@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #
 # set IRQ affinity for a network interface to CPU2 (mask = 0x4)
 #
@@ -17,4 +16,3 @@ done
 
 # stop irqbalance
 systemctl stop irqbalance.service
-

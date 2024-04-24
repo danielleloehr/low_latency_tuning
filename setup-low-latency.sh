@@ -90,8 +90,8 @@ echo -e "--------------------------------------------------"
 
 
 # Optimise CPU
-echo "Disable hyper-threading and adjust scaling governor"
-./config/optimise_cpu.sh
+echo "Disable hyper-threading and adjust scaling governor for CPU2"
+./config/optimise_cpu.sh 2
 echo "Done."
 echo -e "--------------------------------------------------"
 
@@ -108,10 +108,10 @@ echo "Done."
 echo -e "--------------------------------------------------"
 
 # Assign IP address 
-echo "Configure $initial with the correct IP address"
-./config/set_ifconfig.sh $initial
-echo "Done."
-echo -e "--------------------------------------------------"
+#echo "Configure $initial with the correct IP address"
+#./config/set_ifconfig.sh $initial
+#echo "Done."
+#echo -e "--------------------------------------------------"
 
 # Additional optimisation steps
 echo "The final adjustments..."
